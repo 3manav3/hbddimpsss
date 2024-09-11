@@ -1,0 +1,28 @@
+/* Remove margins and paddings for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: aqua;
+}
+
+/* Container to take up the full screen */
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* Ensures no overflow outside the screen */
+}
+
+/* Image to fit the entire screen */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire screen without distortion */
+    cursor: pointer;
+}
